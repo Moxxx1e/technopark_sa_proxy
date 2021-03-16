@@ -1,3 +1,9 @@
+\c postgres;
+
+create database proxy_db;
+
+\c proxy_db;
+
 CREATE TABLE IF NOT EXISTS requests
 (
     id      serial primary key,
