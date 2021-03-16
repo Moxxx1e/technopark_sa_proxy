@@ -52,3 +52,7 @@ def repeat_request(id):
     else:
         reply = get_reply_from_host(request_from_db[2], request_from_db[1], 80, 0)
     return str(reply.decode())
+
+
+if __name__ == '__main__':
+    app.run()
